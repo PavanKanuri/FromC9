@@ -1,14 +1,14 @@
 #include<stdio.h>
-#include<cs50.h>
 
 int main()
 {
-    double c;
+    float c;
     int x, T = 0, Q = 0, D = 0, N = 0, P = 0;
     // taking input of change
     do
     {
-        c = get_double("Change owed:");
+        printf("Change owed:");
+        scanf("%f",&c);
     }
     while (c <= 0);
     //rounding input (float)
