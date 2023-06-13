@@ -2,13 +2,13 @@
 
 int main()
 {
-    float c;
+    double c;
     int x, T = 0, Q = 0, D = 0, N = 0, P = 0;
     // taking input of change
     do
     {
         printf("Change owed:");
-        scanf("%f",&c);
+        scanf("%lf",&c);
     }
     while (c <= 0);
     //rounding input (float)
