@@ -42,5 +42,5 @@ int main()
     }
     T = Q + D + N + P;
     //printing total number of coins
-    printf("%d\n", T);
+    printf("Total %d coins.\n", T);
 }
