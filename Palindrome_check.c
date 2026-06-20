@@ -1,14 +1,14 @@
-#include <conio.h>
 #include <stdio.h>
 
 int main()
 {
-  int A, B=0, R, X;
+  long A, B=0, X;
+  int R;
   //Taking number input
   printf("Enter a number:");
-  scanf("%d",&X);
+  scanf("%ld",&X);
   A = X;
-  while (x!=0)
+  while (X!=0)
   {
     R = X % 10;
     X = X / 10;
@@ -16,10 +16,10 @@ int main()
   }
   if (A == B)
   {
-    printf("Entered number is a palindrome./n");
+    printf("Entered number is a palindrome.\n");
   }
   else
   {
-    printf("Entered number is not a palindrome./n");
+    printf("Entered number is not a palindrome.\n");
   }
 }
